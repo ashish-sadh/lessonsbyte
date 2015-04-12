@@ -1,4 +1,4 @@
-<html>
+<!--<html>
 <head>
 <title>Spring MVC Tutorial Series by Crunchify.com</title>
 <style type="text/css">
@@ -19,4 +19,7 @@ check Spring MVC Controller... @RequestMapping("/welcome"))
 </h3>
 </div>
 </body>
-</html>
+</html> -->
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:redirect url="/home"/>
